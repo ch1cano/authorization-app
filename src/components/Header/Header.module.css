@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    background-image: 
+    linear-gradient(
+      0deg in oklab, 
+      oklch(100% 0.5 344 / 0%) 11% 11%, oklch(62% 0.50 199) 101% 101%
+    )
+  ;
+  height: 150px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+.inc {
+    font-size: 50px;
+    font-family: 'Vina Sans', cursive;
+}
