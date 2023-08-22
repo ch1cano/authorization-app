@@ -35,8 +35,8 @@
 
 .login_box input:focus {
     outline: none !important;
-    border-color: #8720da;
-    box-shadow: 0 0 15px  #25bbd6;
+    border-color: rgb(98,126,235);
+    box-shadow: 0 0 15px rgb(98,126,235);
 }
 
 .pswd_box {
@@ -58,8 +58,8 @@
 
 .pswd_box input:focus {
     outline: none !important;
-    border-color: #25bbd6;
-    box-shadow: 0 0 15px  #8720da
+    border-color: rgb(98,126,235);
+    box-shadow: 0 0 15px rgb(98,126,235);
 }
 
 .pswd_icn {
@@ -73,7 +73,16 @@
     justify-content: flex-end;
     padding-right: 55px;
     font-size: 18px;
-    color: #8720da;
+}
+
+.sing_up p {
+    color: rgb(98,126,235);
+    transition: 0.25s;
+}
+
+.sing_up p:hover {
+    color: rgb(33, 73, 232);
+    transition: 0.25s;
 }
 
 .pswd_box button {
@@ -88,7 +97,7 @@
 }
 
 .show_icn:active {
-    color: #8720da;
+    color: rgb(98,126,235);
 }
 
 .divBtn {
@@ -104,7 +113,7 @@
     height: 40px;
     border-radius: 7px;
     margin-left: 7px;
-    background-color: rgb(210,198,228);
+    background-color: rgb(115, 132, 200);
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -112,7 +121,7 @@
 }
 
 .sign_in_btn:hover {
-    background-color: rgb(196, 175, 228);
+    background-color: rgb(98,126,235);
     transition: 0.25s;
 }
 

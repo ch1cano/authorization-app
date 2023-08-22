@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react";
-import s from "./Main.module.css"
+import s from "./page.module.css"
 import { FiUserCheck } from "react-icons/fi"
 import { RiLockPasswordLine } from "react-icons/ri"
 import { BiSolidShow } from "react-icons/bi"
@@ -33,7 +33,7 @@ const Main = () => {
             <BiSolidShow onClick={togglePassword} size={22} className={s.show_icn} />
           </div>
           <div className={s.divBtn}>
-            <Link href={"/pages/home"}>
+            <Link href={"/pages/profile"}>
               <button className={s.sign_in_btn}>Sign in</button>
             </Link>
           </div>
