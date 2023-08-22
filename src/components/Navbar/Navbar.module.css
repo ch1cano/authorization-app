@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: #131313;
+    height: 70px;
+}
+
+.wrapper p {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.wrapper p:hover{
+    color: rgb(98,126,235);
+    transition: 0.25s;
+}
+
+.home {
+    text-decoration: none;
+    color: #fff;
+}
