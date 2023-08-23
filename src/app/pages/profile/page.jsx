@@ -9,11 +9,15 @@ import Navbar from "@/components/Navbar/Navbar";
 import { BsFillFileArrowDownFill } from "react-icons/bs"
 import { BiSolidPurchaseTag } from "react-icons/bi"
 import { GiTrade } from "react-icons/gi"
+import logo from "@/assets/favicon.png"
 
 
 const Home = () => {
     return <div className={s.wrapper}>
         <div className={s.header}>
+            <div className={s.logo_box}>
+                <Image className={s.logo} src={logo} />
+            </div>
             <h1>My Wallets</h1>
         </div>
         <div className={s.main}>
@@ -40,6 +44,9 @@ const Home = () => {
                         <p>Trade</p>
                     </div>
                 </div>
+                <div className={s.well}>
+                    <p>1$ = 94,30₽</p>
+                </div>
             </div>
             <div className={s.box_btc}>
                 <Image src={btc} alt="btc" className={s.currency} />
@@ -64,6 +71,9 @@ const Home = () => {
                         <p>Trade</p>
                     </div>
                 </div>
+                <div className={s.well}>
+                    <p>1 ₿  = 154772,09₽</p>
+                </div>
             </div>
             <div className={s.box_ether}>
                 <Image src={ether} alt="ether" className={s.currency} />
@@ -87,6 +97,9 @@ const Home = () => {
                         <GiTrade size={45} />
                         <p>Trade</p>
                     </div>
+                </div>
+                <div className={s.well}>
+                    <p>1 ETH = 2446113,15₽</p>
                 </div>
             </div>
         </div>
