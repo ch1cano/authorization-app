@@ -5,6 +5,7 @@
     justify-content: center;
     background-color: #131313;
     height: 80px;
+    flex-wrap: wrap;
 }
 
 .wrapper p {
