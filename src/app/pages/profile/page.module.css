@@ -2,6 +2,7 @@
     background-color: black;
     height: 89dvh;
     color: #FFF;
+    flex-wrap: wrap;
 }
 
 .header {
